@@ -1,0 +1,19 @@
+{
+  "baseline_attrition_rate": 0.0599,
+  "logistic_regression": {
+    "accuracy": 0.6739,
+    "precision": 0.1172,
+    "recall": 0.6818,
+    "f1": 0.2,
+    "roc_auc": 0.7239,
+    "support_positive": 22
+  },
+  "random_forest": {
+    "accuracy": 0.9402,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.74,
+    "support_positive": 22
+  }
+}
