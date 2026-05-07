@@ -65,13 +65,13 @@ hr-attrition-prediction/
 ##  How to Run
 ```bash
 pip install pandas scikit-learn matplotlib
-python src/train_model.py   # trains on real data if mirrors are up
+python src/train_model.py   
 ```
 Artifacts will be written to `results/`.
 
 ---
 
-## ⚡ Skills Demonstrated
+##  Skills Demonstrated
 - Supervised ML (classification) with **scikit‑learn**
 - Feature engineering & encoding (ColumnTransformer, OHE, scaling)
 - Model evaluation (ROC AUC, F1, PR/ROC curves)
