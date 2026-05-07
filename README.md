@@ -1,21 +1,21 @@
-# 🧑‍💼 HR Attrition Prediction (Classification)
+# HR Attrition Prediction (Classification)
 
 Predict whether an employee is at risk of **attrition** using job characteristics, compensation, and satisfaction metrics.  
 This is a recruiter‑friendly case study with **clear storytelling**, **visible results**, and a **real‑data pipeline**.
 
 ---
 
-## 🌍 Why it matters
+##  Why it matters
 Attrition drives **hiring costs**, **knowledge loss**, and **morale impact**. Predictive risk scoring helps HR focus retention actions (comp review, WLB, manager coaching).
 
 ---
 
-## ❓ Problem
+##  Problem
 **Binary classification**: `Attrition = 1` if an employee is likely to leave, else `0`.
 
 ---
 
-## 🛠️ Approach
+##  Approach
 - **Features**: tenure, job role, business travel, overtime, satisfaction, income, promotions, manager tenure, etc.
 - **Models**: Logistic Regression (explainable) + Random Forest (robust baseline).
 - **Evaluation**: Accuracy, Precision, Recall, F1, ROC AUC + diagnostic plots.
@@ -27,7 +27,7 @@ Attrition drives **hiring costs**, **knowledge loss**, and **morale impact**. Pr
 
 ---
 
-## 📈 Results (preview)
+##  Results (preview)
 ![RF Feature Importance](results/rf_feature_importance.png)
 
 ![ROC Curve — Random Forest](results/roc_curve_rf.png)
@@ -62,7 +62,7 @@ hr-attrition-prediction/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 ```bash
 pip install pandas scikit-learn matplotlib
 python src/train_model.py   # trains on real data if mirrors are up
